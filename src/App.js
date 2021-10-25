@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+// const { ClassCounter } = require('./components/ClassCounter')
+// const { HookCounter } = require('./components/HookCounter')
+// const { PrevCounter } = require('./components/PrevCounter')
+// const { ObjectHook } = require('./components/ObjectHook')
+// const { ArrayHook } = require('./components/ArrayHook')
+const { EffectHook } = require('./components/EffectHook')
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClassCounter /> */}
+      {/* <HookCounter /> */}
+      {/* <PrevCounter /> */}
+      {/* <ObjectHook /> */}
+      {/* <ArrayHook /> */}
+      <EffectHook />
     </div>
   );
 }
