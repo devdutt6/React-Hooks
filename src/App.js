@@ -4,7 +4,10 @@ import './App.css';
 // const { PrevCounter } = require('./components/PrevCounter')
 // const { ObjectHook } = require('./components/ObjectHook')
 // const { ArrayHook } = require('./components/ArrayHook')
-const { EffectHook } = require('./components/EffectHook')
+// const { EffectHook } = require('./components/EffectHook')
+// const { EffectHookState } = require('./components/EffectHookState')
+// const { EffectHookMouse } = require('./components/EffectHookMouse')
+// const { HookFetch } = require('./components/HookFetch')
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       {/* <PrevCounter /> */}
       {/* <ObjectHook /> */}
       {/* <ArrayHook /> */}
-      <EffectHook />
+      {/* <EffectHook /> */}
+      {/* <EffectHookState /> */}
+      {/* <EffectHookMouse /> */}
+      {/* <HookFetch /> */}
     </div>
   );
 }
