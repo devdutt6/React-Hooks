@@ -35,6 +35,11 @@ import React from 'react'
 // }
 // const { DataOne } = require('./components/DataOne')
 // const { DataTwo } = require('./components/DataTwo')
+// const { ParentComponent } = require('./components/ParentComponent')
+// const { Memoo } = require('./components/Memoo')
+// const { ClassTimer } = require('./components/ClassTimer')
+// import ClassTimer from './components/ClassTimer';
+const { HookTimer } = require('./components/HookTimer')
 
 function App() {
     // const [ count,dispatch ] = useReducer(reducer, initialState)
@@ -64,6 +69,10 @@ function App() {
       </CountContext.Provider> */}
       {/* <DataOne /> */}
       {/* <DataTwo /> */}
+      {/* <ParentComponent /> */}
+      {/* <Memoo /> */}
+      {/* <ClassTimer /> */}
+      <HookTimer />
     </div>
   );
 }
