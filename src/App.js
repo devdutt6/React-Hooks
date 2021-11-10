@@ -39,7 +39,7 @@ import React from 'react'
 // const { Memoo } = require('./components/Memoo')
 // const { ClassTimer } = require('./components/ClassTimer')
 // import ClassTimer from './components/ClassTimer';
-const { HookTimer } = require('./components/HookTimer')
+// const { HookTimer } = require('./components/HookTimer')
 
 function App() {
     // const [ count,dispatch ] = useReducer(reducer, initialState)
@@ -72,7 +72,7 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <Memoo /> */}
       {/* <ClassTimer /> */}
-      <HookTimer />
+      {/* <HookTimer /> */}
     </div>
   );
 }
